@@ -1,13 +1,13 @@
-const add = function() {
-	
+const add = function(n1, n2) {
+  return n1 + n2;
 };
 
-const subtract = function() {
-	
+const subtract = function(n1, n2) {
+  return n1 - n2;
 };
 
-const sum = function() {
-	
+const sum = function(array) {
+  return array.reduce((total, current) => total + current, 0);
 };
 
 const multiply = function() {
@@ -31,3 +31,5 @@ module.exports = {
   power,
   factorial
 };
+
+//console.log(sum([8, 2, 12]));
